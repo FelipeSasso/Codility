@@ -1,5 +1,7 @@
-tdout for debugging purposes, e.g.
-# print "this is a debug message"
+"""
+Copyright [2015] <Felipe Coral Sasso>
+PermMissingElem.py
+"""
 
 def solution(A):
     # write your code in Python 2.7
@@ -17,8 +19,6 @@ def solution(A):
     if arraySize == A[arraySize - 1]:
         return arraySize + 1
     
-    for i in range(arraySize):       
-        
+    for i in range(arraySize):    
         if i + 1 != A[i]:
             return i + 1
-

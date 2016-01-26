@@ -1,6 +1,7 @@
-# you can write to stdout for debugging purposes, e.g.
-# print "this is a debug message"
-
+"""
+Copyright [2015] <Felipe Coral Sasso>
+FrogRiverOne.py
+"""
 def solution(X, A):
     
     count = X

@@ -1,5 +1,7 @@
-# you can write to stdout for debugging purposes, e.g.
-# print "this is a debug message"
+"""
+Copyright [2015] <Felipe Coral Sasso>
+BinaryGap.py
+"""
 
 def solution(N):
     a = bin(N)
